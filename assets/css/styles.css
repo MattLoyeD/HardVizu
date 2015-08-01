@@ -1,0 +1,34 @@
+/* Classic HardVizu styles.css */
+.thumb_list img { 
+	max-width: 100%; 
+}		
+
+.sizer { 
+	width: 33%;
+}
+
+.thumbs .wrap {
+	position: relative;
+}
+
+.thumbs .zone a { 
+	color: #fff; 
+}
+
+.thumbs .zone {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 2% auto;
+    width: 80%;
+    height: 50px;
+    background-color: rgba(66,66,66,0.5);
+    font-size: 150%;
+    letter-spacing: 10px;
+}
+
+.thumbs:hover .zone {
+	display: block;
+}

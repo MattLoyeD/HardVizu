@@ -1,0 +1,19 @@
+{
+    "name": "mooty13/hardvizu",
+    "description": "Easy Gallery Renderer",
+    "require": {
+        "imagine/imagine": "^0.6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Deroubaix",
+            "email": "matthieu.deroubaix@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "HardVizu": "lib/"
+        }
+    }
+}
